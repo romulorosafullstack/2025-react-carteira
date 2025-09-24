@@ -1,8 +1,13 @@
 import React from "react";
+import Signin from "../Signin";
+import List from "../List";
 
 const Dashboard: React.FC = () => {
   return (
-      <h1>Dashboard</h1>
+    <div>
+      <Signin />
+      <List />
+    </div>
   );
 }
 
