@@ -1,9 +1,14 @@
+import React from "react"
+import GlobalStyles from "./styles/GlobalStyles"
+import Dashboard from "./pages/Dashboard"
 
-export default function App() {
-
+const App: React.FC = () => {
   return (
     <>
-      <h1>Projeto Limpo</h1>
+      <GlobalStyles />
+      <Dashboard />
     </>
-  )
+  )   
 }
+
+export default App
